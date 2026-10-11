@@ -1,2 +1,31 @@
 # fs-watch
-Watch a directory tree for changes
+
+A portable file watcher with debouncing and ignore patterns.
+
+## Why
+
+Written while learning the language properly, and kept because it still works.
+
+## Install
+
+```bash
+pip install fs-watch
+```
+
+## Usage
+
+```python
+from fs_watch import fsWatch
+
+result = fsWatch("example")
+print(result)
+```
+
+## Notes
+
+- No runtime dependencies outside the standard library.
+- Tested on Python 3.9 and newer.
+
+## License
+
+MIT
